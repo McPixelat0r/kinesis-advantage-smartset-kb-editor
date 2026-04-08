@@ -6,7 +6,8 @@ fn main() {
     // Matching group 1 = kinesis token (what gets written in the file)
     // Matching group 2 = form to use in GUI key label (can add custom symbols for future macros)
     println!("Hello, world!");
-    let kb = Keyboard::new();
+    let mut kb = Keyboard::new();
+    kb.clear_overwrite(keyboard::kb_constants::keys::KbPosition::L_C0_R0);
     println!(
         "{}",
         keyboard::kb_constants::tokens::MASTER_DICTIONARY["a"].token_id

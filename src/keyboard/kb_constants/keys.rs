@@ -92,6 +92,7 @@ pub enum KbPosition {
     R_Thumb_1U_BottomInner,
 }
 
+#[expect(dead_code)]
 #[derive(Debug, Clone)]
 pub enum KeyAction {
     /// basic remap
@@ -109,6 +110,7 @@ pub enum KeyAction {
     },
 }
 
+#[expect(dead_code)]
 #[derive(Debug, Clone)]
 pub struct KbKey {
     pub position: KbPosition,
@@ -120,6 +122,7 @@ pub struct Keyboard {
     pub kb_keys: [KbKey; 76],
 }
 
+#[allow(dead_code)]
 impl Keyboard {
     pub fn new() -> Self {
         Self {
@@ -228,10 +231,12 @@ impl Keyboard {
 fn make_key(position: KbPosition, default_token_id: &'static str) -> KbKey {
     let default_token = tokens::MASTER_DICTIONARY
         .get(default_token_id)
-        .expect(&format!(
-            "CRITICAL DEV ERROR: Token '{}' does not exist in MASTER_DICTIONARY",
-            default_token_id
-        ));
+        .unwrap_or_else(|| {
+            panic!(
+                "CRITICAL DEV ERROR: Token '{}' does not exist in MASTER_DICTIONARY",
+                default_token_id
+            )
+        });
     KbKey {
         position,
         default_token,

@@ -1,0 +1,281 @@
+token_category,kinesis_token,usage_name,ui_representation
+Keyboard Tokens,a,keyboard a and A,A
+Keyboard Tokens,b,keyboard b and B,B
+Keyboard Tokens,c,keyboard c and C,C
+Keyboard Tokens,d,keyboard d and D,D
+Keyboard Tokens,e,keyboard e and E,E
+Keyboard Tokens,f,keyboard f and F,F
+Keyboard Tokens,g,keyboard g and G,G
+Keyboard Tokens,h,keyboard h and H,H
+Keyboard Tokens,i,keyboard i and I,I
+Keyboard Tokens,j,keyboard j and J,J
+Keyboard Tokens,k,keyboard k and K,K
+Keyboard Tokens,l,keyboard l and L,L
+Keyboard Tokens,m,keyboard m and M,M
+Keyboard Tokens,n,keyboard n and N,N
+Keyboard Tokens,o,keyboard o and O,O
+Keyboard Tokens,p,keyboard p and P,P
+Keyboard Tokens,q,keyboard q and Q,Q
+Keyboard Tokens,r,keyboard r and R,R
+Keyboard Tokens,s,keyboard s and S,S
+Keyboard Tokens,t,keyboard t and T,T
+Keyboard Tokens,u,keyboard u and U,U
+Keyboard Tokens,v,keyboard v and V,V
+Keyboard Tokens,w,keyboard w and W,W
+Keyboard Tokens,x,keyboard x and X,X
+Keyboard Tokens,y,keyboard y and Y,Y
+Keyboard Tokens,z,keyboard z and Z,Z
+Keyboard Tokens,1,keyboard 1 and !,"!1"
+Keyboard Tokens,2,keyboard 2 and @,"@2"
+Keyboard Tokens,3,keyboard 3 and #,"#3"
+Keyboard Tokens,4,keyboard 4 and $,"$4"
+Keyboard Tokens,5,keyboard 5 and %,"%5"
+Keyboard Tokens,6,keyboard 6 and ^,"^6"
+Keyboard Tokens,7,keyboard 7 and &,"&7"
+Keyboard Tokens,8,keyboard 8 and *,"*8"
+Keyboard Tokens,9,keyboard 9 and (,"(9"
+Keyboard Tokens,0,keyboard 0 and ),")0"
+Keyboard Tokens,ent,keyboard Return,Enter
+Keyboard Tokens,esc,keyboard ESCAPE,Esc
+Keyboard Tokens,bspc,keyboard DELETE,Delete
+Keyboard Tokens,tab,keyboard Tab,Tab
+Keyboard Tokens,spc,keyboard Spacebar,Spacebar
+Keyboard Tokens,hyph,keyboard - and (underscore),"_-"
+Keyboard Tokens,eql,keyboard = and +,"+="
+Keyboard Tokens,obrk,keyboard [ and {,"{["
+Keyboard Tokens,cbrk,keyboard ] and },"}]"
+Keyboard Tokens,bsls,keyboard \and |],"|\"
+Keyboard Tokens,scol,keyboard ; and :,":;"
+Keyboard Tokens,apos,keyboard ‘ and “,"""'"
+Keyboard Tokens,grav,keyboard Grave Accent and Tilde,"~`"
+Keyboard Tokens,comm,"keyboard], and <","<,"
+Keyboard Tokens,perd,keyboard . and >,">."
+Keyboard Tokens,fsls,keyboard / and ?,"?/"
+Keyboard Tokens,caps,keyboard Caps Lock,Caps Lock
+Keyboard Tokens,f1,keyboard F1,F1
+Keyboard Tokens,f2,keyboard F2,F2
+Keyboard Tokens,f3,keyboard F3,F3
+Keyboard Tokens,f4,keyboard F4,F4
+Keyboard Tokens,f5,keyboard F5,F5
+Keyboard Tokens,f6,keyboard F6,F6
+Keyboard Tokens,f7,keyboard F7,F7
+Keyboard Tokens,f8,keyboard F8,F8
+Keyboard Tokens,f9,keyboard F9,F9
+Keyboard Tokens,f10,keyboard F10,F10
+Keyboard Tokens,f11,keyboard F11,F11
+Keyboard Tokens,f12,keyboard F12,F12
+Keyboard Tokens,prnt,keyboard Print Screen,PrtSc
+Keyboard Tokens,sclk,keyboard Scroll Lock,ScrLk
+Keyboard Tokens,paus,keyboard Pause,Pause
+Keyboard Tokens,ins,keyboard Insert,Insert
+Keyboard Tokens,home,keyboard Home,Home
+Keyboard Tokens,pgup,keyboard Page Up,PgUp
+Keyboard Tokens,del,keyboard Delete,Delete
+Keyboard Tokens,end,keyboard End,End
+Keyboard Tokens,pgdn,keyboard Page Down,PgDn
+Keyboard Tokens,rght,keyboard Right Arrow,→
+Keyboard Tokens,left,keyboard Left Arrow,←
+Keyboard Tokens,down,keyboard Down Arrow,↓
+Keyboard Tokens,up,keyboard Up Arrow,↑
+Keyboard Tokens,nmlk,Keypad Num Lock,Num Lock
+Keyboard Tokens,kp/,keypad /,"/"
+Keyboard Tokens,kp*,keypad *,"*"
+Keyboard Tokens,kp-,keypad -,"-"
+Keyboard Tokens,kp+,keypad +,"+"
+Keyboard Tokens,kpen,keypad ENTER,Enter
+Keyboard Tokens,kp1,keypad 1 and End,"1End"
+Keyboard Tokens,kp2,keypad 2 and Down,"2↓"
+Keyboard Tokens,kp3,keypad 3 and Page Down,"3PgDn"
+Keyboard Tokens,kp4,keypad 4 and Left,"4←"
+Keyboard Tokens,kp5,keypad 5,5
+Keyboard Tokens,kp6,keypad 6 and Right,"6→"
+Keyboard Tokens,kp7,keypad 7 and Home,"7Home"
+Keyboard Tokens,kp8,keypad 8 and Up,"8↑"
+Keyboard Tokens,kp9,keypad 9 and Page Up,"9PgUp"
+Keyboard Tokens,kp0,keypad 0 and Insert,"0Insert"
+Keyboard Tokens,kp.,keypad. and Delete],".Delete"
+Keyboard Tokens,app,keyboard Application,RgtClk
+Keyboard Tokens,kp=,keypad =,"="
+Keyboard Tokens,f13,keyboard F13,F13
+Keyboard Tokens,f14,keyboard F14,F14
+Keyboard Tokens,f15,keyboard F15,F15
+Keyboard Tokens,f16,keyboard F16,F16
+Keyboard Tokens,f17,keyboard F17,F17
+Keyboard Tokens,f18,keyboard F18,F18
+Keyboard Tokens,f19,keyboard F19,F19
+Keyboard Tokens,f20,keyboard F20,F20
+Keyboard Tokens,f21,keyboard F21,F21
+Keyboard Tokens,f22,keyboard F22,F22
+Keyboard Tokens,f23,keyboard F23,F23
+Keyboard Tokens,f24,keyboard F24,F24
+Keyboard Tokens,kh74,keyboard Execute,Execute
+Keyboard Tokens,kh75,keyboard Help,Help
+Keyboard Tokens,kh76,keyboard Menu,Menu
+Keyboard Tokens,kh77,keyboard Select,Select
+Keyboard Tokens,kh78,keyboard Stop,Stop
+Keyboard Tokens,kh79,keyboard Again,Again
+Keyboard Tokens,kh7A,keyboard Undo,Undo
+Keyboard Tokens,kh7B,keyboard Cut,Cut
+Keyboard Tokens,kh7C,keyboard Copy,Copy
+Keyboard Tokens,kh7D,keyboard Paste,Paste
+Keyboard Tokens,kh7E,keyboard Find,Find
+Keyboard Tokens,kh7F,keyboard Mute,Mute
+Keyboard Tokens,kh80,keyboard Volume Up],VolUp
+Keyboard Tokens,kh81,keyboard Volume Down],VolDn
+Keyboard Tokens,kh82,keyboard Locking Caps],CapsLock
+Keyboard Tokens,kh83,keyboard Locking Num],NumLock
+Keyboard Tokens,kh84,keyboard Locking,Lock
+Keyboard Tokens,kh85,Keypad Comma,","
+Keyboard Tokens,kh86,Keypad Equal Sign],"="
+Keyboard Tokens,int1,keyboard International1,Intnl1
+Keyboard Tokens,int2,keyboard International2,Intnl2
+Keyboard Tokens,int3,keyboard International3,Intnl3
+Keyboard Tokens,int4,keyboard International4,Intnl4
+Keyboard Tokens,int5,keyboard International5,Intnl5
+Keyboard Tokens,int6,keyboard International6,Intnl6
+Keyboard Tokens,int7,keyboard International7,Intnl7
+Keyboard Tokens,int8,keyboard International8,Intnl8
+Keyboard Tokens,int9,keyboard International9,Intnl9
+Keyboard Tokens,lng1,keyboard LANG1,Lang1
+Keyboard Tokens,lng2,keyboard LANG2,Lang2
+Keyboard Tokens,lng3,keyboard LANG3,Lang3
+Keyboard Tokens,lng4,keyboard LANG4,Lang4
+Keyboard Tokens,lng5,keyboard LANG5,Lang5
+Keyboard Tokens,lng6,keyboard LANG6,Lang6
+Keyboard Tokens,lng7,keyboard LANG7,Lang7
+Keyboard Tokens,lng8,keyboard LANG8,Lang8
+Keyboard Tokens,lng9,keyboard LANG9,Lang9
+Keyboard Tokens,kh99,keyboard Alternate Erase],AltErase
+Keyboard Tokens,kh9A,keyboard SysReq/Attention,SysReq
+Keyboard Tokens,kh9B,keyboard Cancel,Cancel
+Keyboard Tokens,kh9C,keyboard Clear,Clear
+Keyboard Tokens,kh9D,keyboard Prior,Prior
+Keyboard Tokens,kh9E,keyboard Return,Return
+Keyboard Tokens,kh9F,keyboard Separator,Separator
+Keyboard Tokens,khA0,keyboard Out,Out
+Keyboard Tokens,khA1,keyboard Oper,Oper
+Keyboard Tokens,khA2,keyboard Clear/Again,ClearAg
+Keyboard Tokens,khA3,keyboard CrSel/Props,CrSel
+Keyboard Tokens,khA4,keyboard ExSel,ExSel
+Keyboard Tokens,khB0,keypad 00,"00"
+Keyboard Tokens,khB1,keypad 000,"000"
+Keyboard Tokens,khB2,Thousands Separator,ThousandsSep
+Keyboard Tokens,khB3,Decimal Separator,DecSep
+Keyboard Tokens,khB4,Currency Unit,CurrUnit
+Keyboard Tokens,khB5,Currency Sub-unit,CurrSUnit
+Keyboard Tokens,khB6,keypad (,"("
+Keyboard Tokens,khB7,keypad)],")"
+Keyboard Tokens,khB8,keypad {,"{"
+Keyboard Tokens,khB9,keypad },"}"
+Keyboard Tokens,khBA,keypad Tab,Tab
+Keyboard Tokens,khBB,keypad Backspace,Backspace
+Keyboard Tokens,khBC,keypad A,A
+Keyboard Tokens,khBD,keypad B,B
+Keyboard Tokens,khBE,keypad C,C
+Keyboard Tokens,khBF,keypad D,D
+Keyboard Tokens,khC0,keypad E,E
+Keyboard Tokens,khC1,keypad F,F
+Keyboard Tokens,khC2,keypad XOR,XOR
+Keyboard Tokens,khC3,keypad ^,"^"
+Keyboard Tokens,khC4,keypad %,"%"
+Keyboard Tokens,khC5,keypad <,"<"
+Keyboard Tokens,khC6,keypad >,">"
+Keyboard Tokens,khC7,keypad &,"&"
+Keyboard Tokens,khC8,keypad &&,"&&"
+Keyboard Tokens,khC9,keypad |,"|"
+Keyboard Tokens,khCA,keypad ||,"||"
+Keyboard Tokens,khCB,keypad:],":"
+Keyboard Tokens,khCC,keypad #,"#"
+Keyboard Tokens,khCD,keypad Space,Space
+Keyboard Tokens,khCE,keypad @,"@"
+Keyboard Tokens,khCF,keypad !,"!"
+Keyboard Tokens,khD0,keypad Memory Store],MemStore
+Keyboard Tokens,khD1,keypad Memory Recall],MemRecall
+Keyboard Tokens,khD2,keypad Memory Clear],MemClr
+Keyboard Tokens,khD3,keypad Memory Add],MemAdd
+Keyboard Tokens,khD4,keypad Memory Subtract],MemSub
+Keyboard Tokens,khD5,keypad Memory Multiply],MemMult
+Keyboard Tokens,khD6,keypad Memory Divide],MemDiv
+Keyboard Tokens,khD7,keypad +/-,"+/-"
+Keyboard Tokens,khD8,keypad Clear,Clear
+Keyboard Tokens,khD9,keypad Clear Entry],ClearEntry
+Keyboard Tokens,khDA,keypad Binary,Binary
+Keyboard Tokens,khDB,keypad Octal,Octal
+Keyboard Tokens,khDC,keypad Decimal,Decimal
+Keyboard Tokens,khDD,keypad Hexadecimal,Hex
+Keyboard Tokens,lctr,left control,LCtrl
+Keyboard Tokens,lshf,left shift,LShift
+Keyboard Tokens,lalt,left alt,LAlt
+Keyboard Tokens,lwin,left gui,LGUI
+Keyboard Tokens,rctr,right control,RCtrl
+Keyboard Tokens,rshf,right shift,RShift
+Keyboard Tokens,ralt,right alt,RAlt
+Keyboard Tokens,rwin,right gui,RGUI
+Consumer Tokens,next,scan next,ScnNxt
+Consumer Tokens,prev,scan prev,ScnPrv
+Consumer Tokens,play,play,Play
+Consumer Tokens,stop,stop,Stop
+Consumer Tokens,mute,mute,Mute
+Consumer Tokens,vol+,volume up,VolUp
+Consumer Tokens,vol-,volume down,VolDn
+Consumer Tokens,fwrd,forward,Fwd
+Consumer Tokens,rewd,rewind,Rwnd
+Consumer Tokens,cpau,pause,Pause
+Consumer Tokens,ejct,eject,Eject
+Consumer Tokens,plpa,play/pause,Play/Pause
+Consumer Tokens,recr,record,Record
+Consumer Tokens,ranp,random play,RandPlay
+Consumer Tokens,plsk,play/skip,Play/Skip
+Consumer Tokens,calc,calculator,Calculator
+Consumer Tokens,mmut,microphone mute,MicMute
+System Tokens,pwdn,system power down,SysOff
+Mouse Tokens,lmou,mouse button left click,LClick
+Mouse Tokens,rmou,mouse button right click,RClick
+Mouse Tokens,mmou,mouse button middle click,MClick
+Mouse Tokens,4mou,mouse button 4 click,4Click
+Mouse Tokens,5mou,mouse button 5 click,5Click
+Mouse Tokens,sumo,mouse scroll up,ScrlUp
+Mouse Tokens,sdmo,mouse scroll down,CrlDn
+Mouse Tokens,moul,mouse move left,MouseL
+Mouse Tokens,mour,mouse move right,MouseR
+Mouse Tokens,mouu,mouse move up,MouseU
+Mouse Tokens,moud,mouse move down,MouseD
+Custom Tokens,null,no action,null
+Custom Tokens,ss,smartset,SmartSet
+Custom Tokens,ledt,led toggle on/off,LEDToggle
+Custom Tokens,led+,led brightness up,LEDup
+Custom Tokens,led-,led brightness down,LEDdn
+Custom Tokens,Defs,Default layer shift,DefaultLShift
+Custom Tokens,Deft,Default layer toggle,DefaultLToggle
+Custom Tokens,keys,keypad layer shift,KpLShift
+Custom Tokens,keyt,keypad layer toggle,KpLToggle
+Custom Tokens,fn1s,fn1 layer shift,Fn1LShift
+Custom Tokens,fn1t,fn1 layer toggle,Fn1LToggle
+Custom Tokens,fn2s,fn2 layer shift,Fn2LShift
+Custom Tokens,fn2t,fn2 layer toggle,Fn2LToggle
+Custom Tokens,fn3s,fn3 layer shift,Fn3LShift
+Custom Tokens,fn3t,fn3 layer toggle,Fn3LToggle
+Custom Tokens,mstp,stop macro playback,StopMacro
+Custom Tokens,hypr,hyper,Hyper
+Custom Tokens,meh,meh,Meh
+Custom Tokens,pro0,load profile 0,Prof0
+Custom Tokens,pro1,load profile 1,Prof1
+Custom Tokens,pro2,load profile 2,Prof2
+Custom Tokens,pro3,load profile 3,Prof3
+Custom Tokens,pro4,load profile 4,Prof4
+Custom Tokens,pro5,load profile 5,Prof5
+Custom Tokens,pro6,load profile 6,Prof6
+Custom Tokens,pro7,load profile 7,Prof7
+Custom Tokens,pro8,load profile 8,Prof8
+Custom Tokens,pro9,load profile 9,Prof9
+Custom Tokens,caws,control + alt + win + shift,"Ctrl+Alt+Win+Shift"
+Custom Tokens,xaws,control + alt + win,"Ctrl+Alt+Win"
+Custom Tokens,cxws,control + win + shift,"Ctrl+Win+Shift"
+Custom Tokens,caxs,control + alt + shift,"Ctrl+Alt+Shift"
+Custom Tokens,cawx,alt + win + shift,"Alt+Win+Shift"
+Custom Tokens,caxx,control + alt,"Ctrl+Alt"
+Custom Tokens,cxwx,control + win,"Ctrl+Win"
+Custom Tokens,cxxs,control + shift,"Ctrl+Shift"
+Custom Tokens,xawx,alt + win,"Alt+Win"
+Custom Tokens,xaxs,alt + shift,"Alt+Shift"
+Custom Tokens,xxws,win + shift,"Win+Shift"

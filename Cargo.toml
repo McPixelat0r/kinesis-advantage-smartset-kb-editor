@@ -1,0 +1,8 @@
+[package]
+name = "kinesis-kb-programming"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex = { version = "1.12.3" }
+phf = { version = "0.13.1", features = ["macros"] }

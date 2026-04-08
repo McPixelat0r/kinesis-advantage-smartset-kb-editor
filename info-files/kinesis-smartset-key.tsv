@@ -1,0 +1,281 @@
+kinesis_token	ui_representation	usage_name	token_category
+a	A	keyboard a and A	Keyboard Tokens
+b	B	keyboard b and B	Keyboard Tokens
+c	C	keyboard c and C	Keyboard Tokens
+d	D	keyboard d and D	Keyboard Tokens
+e	E	keyboard e and E	Keyboard Tokens
+f	F	keyboard f and F	Keyboard Tokens
+g	G	keyboard g and G	Keyboard Tokens
+h	H	keyboard h and H	Keyboard Tokens
+i	I	keyboard i and I	Keyboard Tokens
+j	J	keyboard j and J	Keyboard Tokens
+k	K	keyboard k and K	Keyboard Tokens
+l	L	keyboard l and L	Keyboard Tokens
+m	M	keyboard m and M	Keyboard Tokens
+n	N	keyboard n and N	Keyboard Tokens
+o	O	keyboard o and O	Keyboard Tokens
+p	P	keyboard p and P	Keyboard Tokens
+q	Q	keyboard q and Q	Keyboard Tokens
+r	R	keyboard r and R	Keyboard Tokens
+s	S	keyboard s and S	Keyboard Tokens
+t	T	keyboard t and T	Keyboard Tokens
+u	U	keyboard u and U	Keyboard Tokens
+v	V	keyboard v and V	Keyboard Tokens
+w	W	keyboard w and W	Keyboard Tokens
+x	X	keyboard x and X	Keyboard Tokens
+y	Y	keyboard y and Y	Keyboard Tokens
+z	Z	keyboard z and Z	Keyboard Tokens
+1	1	keyboard 1 and !	Keyboard Tokens
+2	2	keyboard 2 and @	Keyboard Tokens
+3	3	keyboard 3 and #	Keyboard Tokens
+4	4	keyboard 4 and $	Keyboard Tokens
+5	5	keyboard 5 and %	Keyboard Tokens
+6	6	keyboard 6 and ^	Keyboard Tokens
+7	7	keyboard 7 and &	Keyboard Tokens
+8	8	keyboard 8 and *	Keyboard Tokens
+9	9	keyboard 9 and (	Keyboard Tokens
+0	0	keyboard 0 and )	Keyboard Tokens
+ent	Enter	keyboard Return  	Keyboard Tokens
+esc	Esc	keyboard ESCAPE  	Keyboard Tokens
+bspc	Delete	keyboard DELETE  	Keyboard Tokens
+tab	Tab	keyboard Tab  	Keyboard Tokens
+spc	Spacebar	keyboard Spacebar  	Keyboard Tokens
+hyph	-	keyboard - and (underscore)	Keyboard Tokens
+eql	=	keyboard = and +	Keyboard Tokens
+obrk	[	keyboard [ and {	Keyboard Tokens
+cbrk	]	keyboard ] and }	Keyboard Tokens
+bsls	\	keyboard \ and | 	Keyboard Tokens
+scol	;	keyboard ; and :	Keyboard Tokens
+apos	'	"keyboard ‘ and """ 	Keyboard Tokens
+grav	`	keyboard Grave Accent and tilde	Keyboard Tokens
+comm	,	keyboard , and <	Keyboard Tokens
+perd	.	keyboard . and >	Keyboard Tokens
+fsls	/	keyboard / and ?	Keyboard Tokens
+caps	CapsLock	keyboard Caps Lock 	Keyboard Tokens
+f1	F1	keyboard F1  	Keyboard Tokens
+f2	F2	keyboard F2  	Keyboard Tokens
+f3	F3	keyboard F3  	Keyboard Tokens
+f4	F4	keyboard F4  	Keyboard Tokens
+f5	F5	keyboard F5  	Keyboard Tokens
+f6	F6	keyboard F6  	Keyboard Tokens
+f7	F7	keyboard F7  	Keyboard Tokens
+f8	F8	keyboard F8  	Keyboard Tokens
+f9	F9	keyboard F9  	Keyboard Tokens
+f10	F10	keyboard F10  	Keyboard Tokens
+f11	F11	keyboard F11  	Keyboard Tokens
+f12	F12	keyboard F12  	Keyboard Tokens
+prnt	PrtSc	keyboard Print Screen 	Keyboard Tokens
+sclk	ScrLk	keyboard Scroll Lock 	Keyboard Tokens
+paus	Pause	keyboard Pause  	Keyboard Tokens
+ins	Insert	keyboard Insert  	Keyboard Tokens
+home	Home	keyboard Home  	Keyboard Tokens
+pgup	PgUp	keyboard Page Up 	Keyboard Tokens
+del	Delete	keyboard Delete  	Keyboard Tokens
+end	End	keyboard End  	Keyboard Tokens
+pgdn	PgDn	keyboard Page Down 	Keyboard Tokens
+rght	→	keyboard Right Arrow 	Keyboard Tokens
+left	←	keyboard Left Arrow 	Keyboard Tokens
+down	↓	keyboard Down Arrow 	Keyboard Tokens
+up	↑	keyboard Up Arrow 	Keyboard Tokens
+nmlk	NumLock	Keypad Num Lock and	Keyboard Tokens
+kp/	/	keypad /  	Keyboard Tokens
+kp*	*	keypad *  	Keyboard Tokens
+kp-	-	keypad -  	Keyboard Tokens
+kp+	+	keypad +  	Keyboard Tokens
+kpen	Enter	keypad ENTER  	Keyboard Tokens
+kp1	1	keypad 1 and End	Keyboard Tokens
+kp2	2	keypad 2 and Down	Keyboard Tokens
+kp3	3	keypad 3 and Page Down	Keyboard Tokens
+kp4	4	keypad 4 and Left	Keyboard Tokens
+kp5	5	keypad 5  	Keyboard Tokens
+kp6	6	keypad 6 and Right	Keyboard Tokens
+kp7	7	keypad 7 and Home	Keyboard Tokens
+kp8	8	keypad 8 and Up	Keyboard Tokens
+kp9	9	keypad 9 and Page Up	Keyboard Tokens
+kp0	0	keypad 0 and Insert	Keyboard Tokens
+kp.	.	keypad. and Delete 	Keyboard Tokens
+app	RgtClk	keyboard Application  	Keyboard Tokens
+kp=	=	keypad =  	Keyboard Tokens
+f13	F13	keyboard F13  	Keyboard Tokens
+f14	F14	keyboard F14  	Keyboard Tokens
+f15	F15	keyboard F15  	Keyboard Tokens
+f16	F16	keyboard F16  	Keyboard Tokens
+f17	F17	keyboard F17  	Keyboard Tokens
+f18	F18	keyboard F18  	Keyboard Tokens
+f19	F19	keyboard F19  	Keyboard Tokens
+f20	F20	keyboard F20  	Keyboard Tokens
+f21	F21	keyboard F21  	Keyboard Tokens
+f22	F22	keyboard F22  	Keyboard Tokens
+f23	F23	keyboard F23  	Keyboard Tokens
+f24	F24	keyboard F24  	Keyboard Tokens
+kh74	Execute	keyboard Execute  	Keyboard Tokens
+kh75	Help	keyboard Help  	Keyboard Tokens
+kh76	Menu	keyboard Menu  	Keyboard Tokens
+kh77	Select	keyboard Select  	Keyboard Tokens
+kh78	Stop	keyboard Stop  	Keyboard Tokens
+kh79	Again	keyboard Again  	Keyboard Tokens
+kh7A	Undo	keyboard Undo  	Keyboard Tokens
+kh7B	Cut	keyboard Cut  	Keyboard Tokens
+kh7C	Copy	keyboard Copy  	Keyboard Tokens
+kh7D	Paste	keyboard Paste  	Keyboard Tokens
+kh7E	Find	keyboard Find  	Keyboard Tokens
+kh7F	Mute	keyboard Mute  	Keyboard Tokens
+kh80	VolUp	keyboard Volume Up 	Keyboard Tokens
+kh81	VolDn	keyboard Volume Down 	Keyboard Tokens
+kh82	CapsLock	keyboard Locking Caps 	Keyboard Tokens
+kh83	NumLock	keyboard Locking Num 	Keyboard Tokens
+kh84	Lock	keyboard Locking  	Keyboard Tokens
+kh85	,	Keypad Comma  	Keyboard Tokens
+kh86	=	Keypad Equal Sign 	Keyboard Tokens
+int1	Intnl1	keyboard International1  	Keyboard Tokens
+int2	Intnl2	keyboard International2  	Keyboard Tokens
+int3	Intnl3	keyboard International3  	Keyboard Tokens
+int4	Intnl4	keyboard International4  	Keyboard Tokens
+int5	Intnl5	keyboard International5  	Keyboard Tokens
+int6	Intnl6	keyboard International6  	Keyboard Tokens
+int7	Intnl7	keyboard International7  	Keyboard Tokens
+int8	Intnl8	keyboard International8  	Keyboard Tokens
+int9	Intnl9	keyboard International9  	Keyboard Tokens
+lng1	Lang1	keyboard LANG1  	Keyboard Tokens
+lng2	Lang2	keyboard LANG2  	Keyboard Tokens
+lng3	Lang3	keyboard LANG3  	Keyboard Tokens
+lng4	Lang4	keyboard LANG4  	Keyboard Tokens
+lng5	Lang5	keyboard LANG5  	Keyboard Tokens
+lng6	Lang6	keyboard LANG6  	Keyboard Tokens
+lng7	Lang7	keyboard LANG7  	Keyboard Tokens
+lng8	Lang8	keyboard LANG8  	Keyboard Tokens
+lng9	Lang9	keyboard LANG9  	Keyboard Tokens
+kh99	AltErase	keyboard Alternate Erase 	Keyboard Tokens
+kh9A	SysReq	keyboard SysReq/Attention  	Keyboard Tokens
+kh9B	Cancel	keyboard Cancel  	Keyboard Tokens
+kh9C	Clear	keyboard Clear  	Keyboard Tokens
+kh9D	Prior	keyboard Prior  	Keyboard Tokens
+kh9E	Return	keyboard Return  	Keyboard Tokens
+kh9F	Separator	keyboard Separator  	Keyboard Tokens
+khA0	Out	keyboard Out  	Keyboard Tokens
+khA1	Oper	keyboard Oper  	Keyboard Tokens
+khA2	ClearAg	keyboard Clear/Again  	Keyboard Tokens
+khA3	CrSel	keyboard CrSel/Props  	Keyboard Tokens
+khA4	ExSel	keyboard ExSel  	Keyboard Tokens
+khB0	00	keypad 00  	Keyboard Tokens
+khB1	000	keypad 000  	Keyboard Tokens
+khB2	ThousandsSep	Thousands Separator  	Keyboard Tokens
+khB3	DecSep	Decimal Separator  	Keyboard Tokens
+khB4	CurrUnit	Currency Unit  	Keyboard Tokens
+khB5	CurrSUnit	Currency Sub-unit  	Keyboard Tokens
+khB6	(	keypad (  	Keyboard Tokens
+khB7	)	keypad )   	Keyboard Tokens
+khB8	{	keypad {  	Keyboard Tokens
+khB9	}	keypad }  	Keyboard Tokens
+khBA	Tab	keypad Tab  	Keyboard Tokens
+khBB	Backspace	keypad Backspace  	Keyboard Tokens
+khBC	A	keypad A  	Keyboard Tokens
+khBD	B	keypad B  	Keyboard Tokens
+khBE	C	keypad C  	Keyboard Tokens
+khBF	D	keypad D  	Keyboard Tokens
+khC0	E	keypad E  	Keyboard Tokens
+khC1	F	keypad F  	Keyboard Tokens
+khC2	XOR	keypad XOR  	Keyboard Tokens
+khC3	^	keypad ^  	Keyboard Tokens
+khC4	%	keypad %  	Keyboard Tokens
+khC5	<	keypad <  	Keyboard Tokens
+khC6	>	keypad >  	Keyboard Tokens
+khC7	&	keypad &  	Keyboard Tokens
+khC8	&&	keypad &&  	Keyboard Tokens
+khC9	|	keypad |  	Keyboard Tokens
+khCA	||	keypad ||  	Keyboard Tokens
+khCB	:	keypad:   	Keyboard Tokens
+khCC	#	keypad #  	Keyboard Tokens
+khCD	Space	keypad Space  	Keyboard Tokens
+khCE	@	keypad @  	Keyboard Tokens
+khCF	!	keypad !  	Keyboard Tokens
+khD0	MemStore	keypad Memory Store 	Keyboard Tokens
+khD1	MemRecall	keypad Memory Recall 	Keyboard Tokens
+khD2	MemClr	keypad Memory Clear 	Keyboard Tokens
+khD3	MemAdd	keypad Memory Add 	Keyboard Tokens
+khD4	MemSub	keypad Memory Subtract 	Keyboard Tokens
+khD5	MemMult	keypad Memory Multiply 	Keyboard Tokens
+khD6	MemDiv	keypad Memory Divide 	Keyboard Tokens
+khD7	+/-	keypad +/-  	Keyboard Tokens
+khD8	Clear	keypad Clear  	Keyboard Tokens
+khD9	ClearEntry	keypad Clear Entry 	Keyboard Tokens
+khDA	Binary	keypad Binary  	Keyboard Tokens
+khDB	Octal	keypad Octal  	Keyboard Tokens
+khDC	Decimal	keypad Decimal  	Keyboard Tokens
+khDD	Hex	keypad Hexadecimal  	Keyboard Tokens
+lctr	LCtrl	left control  	Keyboard Tokens
+lshf	LShift	left shift  	Keyboard Tokens
+lalt	LAlt	left alt  	Keyboard Tokens
+lwin	LGUI	left gui  	Keyboard Tokens
+rctr	RCtrl	right control  	Keyboard Tokens
+rshf	RShift	right shift  	Keyboard Tokens
+ralt	RAlt	right alt  	Keyboard Tokens
+rwin	RGUI	right gui  	Keyboard Tokens
+next	ScnNxt	scan next	Consumer Tokens
+prev	ScnPrv	scan prev	Consumer Tokens
+play	Play	play	Consumer Tokens
+stop	Stop	stop	Consumer Tokens
+mute	Mute	mute	Consumer Tokens
+vol+	VolUp	volume up	Consumer Tokens
+vol-	VolDn	volume down	Consumer Tokens
+fwrd	Fwd	forward	Consumer Tokens
+rewd	Rwnd	rewind	Consumer Tokens
+cpau	Pause	pause	Consumer Tokens
+ejct	Eject	eject	Consumer Tokens
+plpa	Play/Pause	play/pause	Consumer Tokens
+recr	Record	record	Consumer Tokens
+ranp	RandPlay	random play	Consumer Tokens
+plsk	Play/Skip	play/skip	Consumer Tokens
+calc	Calculator	calculator	Consumer Tokens
+mmut	MicMute	microphone mute	Consumer Tokens
+pwdn	SysOff	system power down	System Tokens
+lmou	LClick	mouse button left click	Mouse Tokens
+rmou	RClick	mouse button right click	Mouse Tokens
+mmou	MClick	mouse button middle click	Mouse Tokens
+4mou	4Click	mouse button 4 click	Mouse Tokens
+5mou	5Click	mouse button 5 click	Mouse Tokens
+sumo	ScrlUp	mouse scroll up	Mouse Tokens
+sdmo	CrlDn	mouse scroll down	Mouse Tokens
+moul	MouseL	mouse move left	Mouse Tokens
+mour	MouseR	mouse move right	Mouse Tokens
+mouu	MouseU	mouse move up	Mouse Tokens
+moud	MouseD	mouse move down	Mouse Tokens
+null	null	no action	Custom Tokens
+ss	SmartSet	smartset	Custom Tokens
+ledt	LEDToggle	led toggle on/off	Custom Tokens
+led+	LEDup	led brightness up	Custom Tokens
+led-	LEDdn	led brightness down	Custom Tokens
+Defs	DefaultLShift	Default layer shift	Custom Tokens
+Deft	DefaultLToggle	Default layer toggle	Custom Tokens
+keys	KpLShift	keypad layer shift	Custom Tokens
+keyt	KpLToggle	keypad layer toggle	Custom Tokens
+fn1s	Fn1LShift	fn1 layer shift	Custom Tokens
+fn1t	Fn1LToggle	fn1 layer toggle	Custom Tokens
+fn2s	Fn2LShift	fn2 layer shift	Custom Tokens
+fn2t	Fn2LToggle	fn2 layer toggle	Custom Tokens
+fn3s	Fn3LShift	fn3 layer shift	Custom Tokens
+fn3t	Fn3LToggle	fn3 layer toggle	Custom Tokens
+mstp	StopMacro	stop macro playback	Custom Tokens
+hypr	Hyper	hyper	Custom Tokens
+meh	Meh	meh	Custom Tokens
+pro0	Prof0	load profile 0	Custom Tokens
+pro1	Prof1	load profile 1	Custom Tokens
+pro2	Prof2	load profile 2	Custom Tokens
+pro3	Prof3	load profile 3	Custom Tokens
+pro4	Prof4	load profile 4	Custom Tokens
+pro5	Prof5	load profile 5	Custom Tokens
+pro6	Prof6	load profile 6	Custom Tokens
+pro7	Prof7	load profile 7	Custom Tokens
+pro8	Prof8	load profile 8	Custom Tokens
+pro9	Prof9	load profile 9	Custom Tokens
+caws	Ctrl+Alt+Win+Shift	control + alt + win + shift	Custom Tokens
+xaws	Ctrl+Alt+Win	control + alt + win	Custom Tokens
+cxws	Ctrl+Win+Shift	control + win + shift	Custom Tokens
+caxs	Ctrl+Alt+Shift	control + alt + shift	Custom Tokens
+cawx	Alt+Win+Shift	alt + win + shift	Custom Tokens
+caxx	Ctrl+Alt	control + alt	Custom Tokens
+cxwx	Ctrl+Win	control + win	Custom Tokens
+cxxs	Ctrl+Shift	control + shift	Custom Tokens
+xawx	Alt+Win	alt + win	Custom Tokens
+xaxs	Alt+Shift	alt + shift	Custom Tokens
+xxws	Win+Shift	win + shift	Custom Tokens
