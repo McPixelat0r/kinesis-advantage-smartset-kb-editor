@@ -1,28 +1,53 @@
 // parser.rs
 
-pub enum Layer {
-    Base,
-    Keypad,
-    Fn1,
-    Fn2,
-    Fn3,
-}
+use crate::keyboard::layout::{Keyboard, Layer};
+use crate::keyboard::kb_constants::keys::{KbPosition, KeyAction}
+
+// pub enum Layer {
+    // Base,
+    // Keypad,
+    // Fn1,
+    // Fn2,
+    // Fn3,
+// }
 impl Layer {
     pub fn from_string(tag: &str) -> Option<Layer> {
         match tag {
             "base" => Some(Layer::Base),
-            "kp" => Some(Layer::Keypad), // The Kinesis tag for keypad is usually <kp>
-            "fn1" => Some(Layer::Fn1),
-            "fn2" => Some(Layer::Fn2),
-            "fn3" => Some(Layer::Fn3),
+            "keypad" => Some(Layer::Keypad), // The Kinesis tag for keypad is usually <kp>
+            "function1" => Some(Layer::Fn1),
+            "function2" => Some(Layer::Fn2),
+            "function3" => Some(Layer::Fn3),
             _ => None, // If it reads a layer that doesn't exist, it returns nothing
         }
     }
 }
 
-pub fn parse_layout(raw_file: &str) {
+pub fn parse_layout_file(raw_file: &str) {
+    let mut active_layer = Layer::Base;
     for line in raw_file.lines() {
         let trimmed_line = line.trim();
-        if &line[0..] == "<" {}
+
+        match trimmed_line.chars().next() {
+            None | Some('*') => continue,
+
+            Some('<') if trimmed_line.ends_with('>') => {
+                // active_layer = Layer.from_string(&trimmed_line[1..trimmed_line.len() - 1]);
+                // TODO: implement layer update
+            }
+
+            Some('[') | Some('{') => {
+                if let Some((trigger, action)) = trimmed_line.split_once('>') {
+                    // TODO: implement assignment
+                }
+            }
+
+            Some(unrecognized_char) => {
+                println!(
+                    "Warning: invalid syntax starting with '{}' on line {}",
+                    unrecognized_char, trimmed_line
+                );
+            }
+        }
     }
 }
