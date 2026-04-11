@@ -1,14 +1,14 @@
 // parser.rs
 
+use crate::keyboard::kb_constants::keys::{KbPosition, KeyAction};
 use crate::keyboard::layout::{Keyboard, Layer};
-use crate::keyboard::kb_constants::keys::{KbPosition, KeyAction}
 
 // pub enum Layer {
-    // Base,
-    // Keypad,
-    // Fn1,
-    // Fn2,
-    // Fn3,
+// Base,
+// Keypad,
+// Fn1,
+// Fn2,
+// Fn3,
 // }
 impl Layer {
     pub fn from_string(tag: &str) -> Option<Layer> {
@@ -28,7 +28,8 @@ pub fn parse_layout_file(raw_file: &str) {
     for line in raw_file.lines() {
         let trimmed_line = line.trim();
 
-        match trimmed_line.chars().next() {
+        let first_char = trimmed_line.chars().next();
+        match first_char {
             None | Some('*') => continue,
 
             Some('<') if trimmed_line.ends_with('>') => {
@@ -37,9 +38,10 @@ pub fn parse_layout_file(raw_file: &str) {
             }
 
             Some('[') | Some('{') => {
-                if let Some((trigger, action)) = trimmed_line.split_once('>') {
-                    // TODO: implement assignment
-                }
+                // if let Some((trigger, action)) = trimmed_line.split_once('>') {
+                // TODO: implement assignment
+
+                // }
             }
 
             Some(unrecognized_char) => {
@@ -48,6 +50,7 @@ pub fn parse_layout_file(raw_file: &str) {
                     unrecognized_char, trimmed_line
                 );
             }
+            _ => {}
         }
     }
 }
