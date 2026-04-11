@@ -33,7 +33,8 @@ pub fn parse_layout_file(raw_file: &str) {
             None | Some('*') => continue,
 
             Some('<') if trimmed_line.ends_with('>') => {
-                // active_layer = Layer.from_string(&trimmed_line[1..trimmed_line.len() - 1]);
+                active_layer = Layer::from_string(&trimmed_line[1..trimmed_line.len() - 1])
+                    .unwrap_or(active_layer);
                 // TODO: implement layer update
             }
 
@@ -50,7 +51,6 @@ pub fn parse_layout_file(raw_file: &str) {
                     unrecognized_char, trimmed_line
                 );
             }
-            _ => {}
         }
     }
 }

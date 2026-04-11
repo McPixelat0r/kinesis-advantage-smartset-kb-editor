@@ -1,5 +1,5 @@
 mod keyboard;
-use crate::keyboard::kb_constants::keys::Keyboard;
+use crate::keyboard::layout_2::Keyboard;
 fn main() {
     // Regex for getting the first 2 columns: ^(\S+)\t([\S+]+)
     // Override format = [key1]>[key2]
