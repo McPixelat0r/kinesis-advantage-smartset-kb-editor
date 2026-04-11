@@ -1,0 +1,5 @@
+{char|modifier_key}[{char|modifier_key}...{char}]>[{prefix}]{char|action|[+,-]modifier_key}[{char|action|[+,-]modifier_key}...{char|action}]
+
+modifier_key = lalt/ralt | lctr/rctr | lshf/rshf | lwin/rwin | caws | xaws | cxws | caxs | cawx | caxx | cxwx | cxxs | xawx | xaxs | xxws
+
+action = ledt/led+/led- | Defs/Deft | keys/keyt | fn1s/fn1t | fn2s/fn2t | fn3s/fn3t | mstp | hypr | meh | pro0/pro1/pro2/pro3/pro4/pro5/pro6/pro7/pro8/pro9 | lmou/rmou/mmou/4mou/5mou/sumo/sdmo/moul/mour/mouu/moud | next/prev/play/stop/mute/vol+/vol-/fwrd/rewd/cpau/ejct/plpa/recr/ranp/plsk | calc | mmut | kh78/kh79/kh7A/kh7B/kh7C/kh7D/kh7E/kh7F/kh80/kh81/kh82/kh83/kh84/kh85/kh86

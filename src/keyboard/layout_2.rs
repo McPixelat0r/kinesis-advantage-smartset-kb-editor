@@ -1,8 +1,9 @@
 use crate::keyboard::kb_constants::keys::{KbKey, KbPosition, KeyAction};
 use crate::keyboard::kb_constants::tokens;
+use crate::keyboard::parser_attempt_2;
 use std::collections::HashMap;
 
-#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Layer {
     Base,
     Keypad,
@@ -40,13 +41,13 @@ impl Keyboard {
 
     pub fn load_new_profile(&mut self, new_layout_text: &str) {
         self.layer_overrides.clear();
-        // TODO: Parser logic/call parser.rs
+        parser_attempt_2::parse_layout_file(new_layout_text, self);
     }
 
     pub fn set_override(&mut self, layer: Layer, position: KbPosition, new_action: KeyAction) {
         self.layer_overrides
             .entry(layer)
-            .or_insert_with(HashMap::new)
+            .or_default()
             .insert(position, new_action);
     }
 
@@ -68,8 +69,6 @@ impl Keyboard {
 }
 
 fn generate_default_keys() -> [KbKey; 76] {
-    // TODO: make_key calls
-
     [
         // Left hand - outside (pinky) in, top to bottom
         make_key(KbPosition::L_C0_R0, "eql"),

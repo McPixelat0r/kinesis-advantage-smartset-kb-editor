@@ -13,8 +13,10 @@ use regex::Regex;
 // Fn3,
 // }
 
-pub fn parse_layout_file(raw_file: &str, mut new_kb: Keyboard) {
+pub fn parse_layout_file(raw_file: &str, new_kb: &mut Keyboard) {
     let mut active_layer = Layer::Base;
+    let simple_overwrite_re = Regex::new(r"\[([a-z0-9\.\+\-\=\*\/]+)\]").unwrap();
+
     for line in raw_file.lines() {
         let trimmed_line = line.trim();
 
@@ -23,30 +25,20 @@ pub fn parse_layout_file(raw_file: &str, mut new_kb: Keyboard) {
             None | Some('*') => continue,
 
             Some('<') => {
-                active_layer = Layer::from_string_2(&trimmed_line[1..trimmed_line.len() - 1])
-                    .unwrap_or(active_layer);
+                active_layer =
+                    Layer::from_string_2(&trimmed_line[1..trimmed_line.len() - 1]).unwrap();
                 continue;
             }
 
             Some('[') => {
                 // if let Some((trigger, action)) = trimmed_line.split_once('>') {
-                let re = Regex::new(r"\[([a-z0-9\.\+\-\=\*\/]+)\]").unwrap();
-                if let Some(re_captures) = re.captures(trimmed_line) {
+                if let Some(re_captures) = simple_overwrite_re.captures(trimmed_line) {
                     // let overwrite_kb_position = KbPosition::get_position(&re_captures[0]);
-                    if let new_action = KeyAction::Remap(&MASTER_DICTIONARY[&re_captures[1]])
-                        && let overwrite_kb_position = KbPosition::get_position(&re_captures[0])
-                    {
-                        new_kb.set_override(
-                            active_layer,
-                            overwrite_kb_position.unwrap(),
-                            new_action,
-                        );
-                    }
+                    let new_action = KeyAction::Remap(&MASTER_DICTIONARY[&re_captures[1]]);
+                    let overwrite_kb_position = KbPosition::get_position(&re_captures[0]);
+
+                    new_kb.set_override(active_layer, overwrite_kb_position.unwrap(), new_action);
                 }
-
-                // TODO: implement assignment
-
-                // }
             }
 
             Some('{') => {
@@ -58,8 +50,7 @@ pub fn parse_layout_file(raw_file: &str, mut new_kb: Keyboard) {
                     "Warning: invalid syntax starting with '{}' on line {}",
                     unrecognized_char, trimmed_line
                 );
-            }
-            _ => {}
+            } // _ => {}
         }
     }
 }
