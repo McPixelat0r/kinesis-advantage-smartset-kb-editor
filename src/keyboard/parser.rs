@@ -10,19 +10,17 @@ enum LineType {
     SkipLine,
 }
 
-// fn match_line_type(line_str: Option<&str>) -> LineType {
-// match line_str.chars().next() {
-// Some('<') => LineType::LayerLine,
-// Some('[') => LineType::RemapLine,
-// Some('{') => LineType::MacroLine,
-// _ => LineType::SkipLine,
-// }
-// }
+fn match_line_type(line_str: &str) -> LineType {
+    match line_str.chars().next() {
+        Some('<') => LineType::LayerLine,
+        Some('[') => LineType::RemapLine,
+        Some('{') => LineType::MacroLine,
+        _ => LineType::SkipLine,
+    }
+}
 
 pub fn parse_layout_file(raw_file: &str, current_kb: &mut Keyboard) {
     let mut active_layer = Layer::Base;
-    // let simple_overwrite_re = Regex::new(r"\[([a-z0-9\.\+\-\=\*\/]+)\]{2}").unwrap();
-    // let macro_re = Regex::new(r"");
     for line in raw_file.lines() {
         let trimmed_line = line.trim();
 
@@ -38,10 +36,6 @@ pub fn parse_layout_file(raw_file: &str, current_kb: &mut Keyboard) {
 
             Some('[') => {
                 if let Some((trigger, action)) = trimmed_line.split_once('>') {
-                    // let remap_key: &str = &trigger.trim_matches(|c| c == '[' || c == ']');
-                    // let new_action: KeyAction;
-                    // let hold_options: Option<(u16, &'static KeyToken)>;
-
                     let trigger_pos_str: &str = trigger.trim_matches(|c| c == '[' || c == ']');
 
                     let trigger_pos = match KbPosition::get_position(trigger_pos_str) {
@@ -97,18 +91,26 @@ pub fn parse_layout_file(raw_file: &str, current_kb: &mut Keyboard) {
                             );
                         }
                     };
-                    // new_kb.set_override(active_layer, remap_position, remap_token);
-                    // new_kb.set_override(active_layer, overwrite_kb_position.unwrap(), new_action);
-                    // let new_action = ()
                 }
             }
 
             Some('{') => {
                 // TODO: implement assignment
-                // let
-                // if let Some((trigger, actions)) = trimmed_line.split_once('>') {
-                // let macro_split =
-                // }
+
+                if let Some((trigger, action)) = trimmed_line.split_once('>') {
+                    // let trigger_pos_str: &str = trigger.trim_matches(|c| c == '{' || c == '}');
+                    let macro_triggers_vector: Vec<&str> = trigger
+                        .split("}{")
+                        .map(|s| s.trim_matches(|c| c == '{' || c == '}'))
+                        .filter(|s| !s.is_empty())
+                        .collect();
+
+                    let macro_actions_vector: Vec<&str> = action
+                        .split("}{")
+                        .map(|s| s.trim_matches(|c| c == '{' || c == '}'))
+                        .filter(|s| !s.is_empty())
+                        .collect();
+                }
             }
 
             Some(unrecognized_char) => {
